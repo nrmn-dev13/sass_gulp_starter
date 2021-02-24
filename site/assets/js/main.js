@@ -1,9 +1,9 @@
 window.onload = function() {
   if (window.jQuery) {  
       // jQuery is loaded  
-      alert("Yeah!");
+      console.log("Work");
   } else {
       // jQuery is not loaded
-      alert("Doesn't Work");
+      console.log("Doesn't Work");
   }
 }
